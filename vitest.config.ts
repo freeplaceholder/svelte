@@ -28,8 +28,5 @@ export default defineConfig({
   },
   resolve: {
     conditions: ["browser"],
-    alias: {
-      "@freeplaceholder/core": path.resolve(__dirname, "../core/src/index.ts"),
-    },
   },
 });
